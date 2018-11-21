@@ -1,0 +1,13 @@
+main{
+    h2{
+        font-size:$header2Size;
+    }
+    section{
+        p{
+            span{
+                display: inline-block;
+                @include spin(90deg);
+            }
+        }
+    }
+}

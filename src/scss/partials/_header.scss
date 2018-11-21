@@ -1,0 +1,16 @@
+header{
+    text-decoration: underline;
+    border: 1px solid green;
+    h1{
+        font-size: $header1Size;
+    }
+    nav{
+        color: $navColor;
+        ul{
+            li{
+                font-size:$navItemSize;
+                color: $navLiColor;
+            }
+        }
+    }
+}
