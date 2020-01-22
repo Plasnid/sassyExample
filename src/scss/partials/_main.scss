@@ -1,8 +1,11 @@
-main{
+main{  
     h2{
-        font-size:$header2Size;
+        color:$borkh2;
     }
     section{
+        >h2{
+            font-size:$header2Size;
+        }
         p{
             span{
                 display: inline-block;
